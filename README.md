@@ -35,6 +35,18 @@ population             | The number of humans in the country
 ### Step 5: Analysis
 Next we create sql queries to create our different tables that are grouped by country. One of our tables has all articles while the other table only keeps the high end quality articles, namely, 'FA' and 'GA'. We count the number of articles from each country and also divide that number by the population to obtain the proportion of articles relative to population. Finally, we merge the countries with our regions from earlier and perform a grouping by regions, still counting the total number of articles in a region and dividing it by the population of that region to obtain the proportions. 
 
+#### Input Data:
+- WPDS_2020_data.csv
+- page_data.csv
+
+#### Notebook:
+- hcds-a2-bias.ipynb
+
+#### Output Data:
+- wp_wpds_countries-no_match.csv   (no matches -- Null data)
+- wp_wpds_politicians_by_country.csv   (matched, scored articles)
+- final_article_data.csv   (final data with all matches)
+
 ## API
 
 ### API Notes
